@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="seat">
+
+	<select id="count" resultType="int">
+		select count(*) from hb_reading
+		where
+		yes_no='yes'
+	</select>
+
+	<!-- 검색 -->
+	<select id="one" parameterType="String" resultType="com.hb.mybatis.ChairVO">
+		select*from	hb_reading where id= #{id}
+	</select>
+	<select id="choose" parameterType="String" resultType="com.hb.mybatis.ChairVO">
+		select*from hb_reading where chairnum= #{chairnum}
+	</select>
+
+	<update id="update" parameterType="com.hb.mybatis.ChairVO">
+		update hb_reading set time=#{time}, yes_no=#{yes_no}, id=#{id} where chairnum=#{chairnum}
+	</update>
+
+	<select id="list" resultType="com.hb.mybatis.ChairVO">
+		select*from hb_reading
+	</select>
+	
+	<!-- 자리찾기 -->
+	<select id="findseat" parameterType="String" resultType="com.hb.mybatis.ChairVO">
+		select*from hb_reading where id= #{id}
+	</select>
+	
+	<!-- 자리반납 -->
+	<update id="updReturn" parameterType="com.hb.mybatis.ChairVO">
+		update hb_reading set time=null, yes_no=#{yes_no}, id=#{chairnum} where chairnum=#{chairnum}
+	</update>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
