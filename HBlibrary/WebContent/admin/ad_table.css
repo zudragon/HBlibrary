@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+ body{
+	font-family:"맑은 고딕", "고딕", "굴림";
+}
+
+table.ad_table{	 border-bottom: 3px solid #b30808; border-left: 3px solid #b30808;  border-right: 3px solid #b30808; 	}
+table.ad_table_title{	width: 800px; height:30px; border: 3px solid #b30808;  	}
+table.ad_table_title tr{ background: #f57272; color : white; }
+div{ color:#b3da49;}
