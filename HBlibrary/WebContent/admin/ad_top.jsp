@@ -14,7 +14,7 @@
 </head>
 <body class="imtop" >
 <div class="imtop" >
-<table align="center" width="1198px"><tr><td onclick="location.href='main.ad'"><span style="font-size: x-large; text-align: left;"><img src="img/한빛로고.png" width="290px"/></span>
+<table align="center" width="1198px"><tr><td onclick="location.href='main.ad'"><span style="font-size: x-large; text-align: left;"><img alt="한빛도서관" title="한빛도서관"  src="c:/HBlibrary/img/한빛로고.png "   width="290px"/></span>
 </td><td width="900px;">
 </td></tr></table>
 </div>

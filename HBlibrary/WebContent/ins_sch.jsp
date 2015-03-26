@@ -13,7 +13,7 @@
 </style>
 </head>
 <body>
-<img src="img/한빛로고.png" />
+<img src="c:/HBlibrary/img/한빛로고.png" />
 	<form action="ins.ex">
 		<table>
 			<tr><td width="70px">이름</td><td><input type="text" name="name" /> </td></tr>

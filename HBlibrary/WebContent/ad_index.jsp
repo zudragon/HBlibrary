@@ -9,7 +9,7 @@
 <title>관리자 페이지</title>
 <style type="text/css">
  	body{	font-family:"맑은 고딕", "고딕", "굴림";
-		background-image: url("img/lib_back.png"); 	no-repeat; background-size:100% 100%
+		background-image: url("c:/HBlibrary/img/lib_back.png"); 	no-repeat; background-size:100% 100%
 		
  	}
 	table.ad_table{	 border-bottom: 3px solid #b30808; border-left: 3px solid #b30808;  border-right: 3px solid #b30808; 	}
