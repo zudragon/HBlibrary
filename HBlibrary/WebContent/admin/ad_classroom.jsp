@@ -8,5 +8,8 @@
 </head>
 <body>
 <h2>강의실 : 대관 신청관리</h2>
+<table class="ad_table_title" ><tr><td width="20%">강의실 번호</td><td width="20%">신청자</td><td width="20%">신청일</td><td width="20%">신청시간</td><td width="20%">취소요청</td></tr></table>
+<table width="800px" cellpadding="0" cellspacing="0" class="ad_table" rules="all">
+</table>
 </body>
 </html>

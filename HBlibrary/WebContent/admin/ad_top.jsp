@@ -7,15 +7,15 @@
 <title></title>
 <style type="text/css">
 	body.imtop{ vertical-align: middle;}
-	div.imtop{ width: 1000px; height: 100px; border: outset 3px gray; margin: 0 auto; }
+	div.imtop{ width: 1200px; height: 100px; margin: 0 auto; }
 	span{ width: 200px; }
 	div.imtop table tr:hover{ cursor: pointer;}
 </style>
 </head>
 <body class="imtop" >
 <div class="imtop" >
-<table align="center"><tr><td onclick="location.href='main.ad'"><span style="font-size: x-large; text-align: left;"><img src="img/한빛로고.png" width="250px"/></span>
-</td><td width="600px">
+<table align="center" width="1198px"><tr><td onclick="location.href='main.ad'"><span style="font-size: x-large; text-align: left;"><img src="img/한빛로고.png" width="290px"/></span>
+</td><td width="900px;">
 </td></tr></table>
 </div>
 </body>

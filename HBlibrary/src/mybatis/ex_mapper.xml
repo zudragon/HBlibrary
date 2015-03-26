@@ -4,7 +4,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="ex">
 	<select id="exlist" resultType="mybatis.SchExVo">
-		select * from sch_ex
+		select * from sch_ex order by time
 	</select>
 	<insert id="exins" parameterType="mybatis.SchExVo" >
 		insert into sch_ex values(#{name}, #{time},sysdate, #{selday})

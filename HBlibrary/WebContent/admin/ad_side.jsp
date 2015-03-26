@@ -9,10 +9,10 @@
 <script type="text/javascript">
 	$(function() {
 		var alt="";
-		$("table tr img").hover(function() {
-			$(this).attr("src",$(this).attr("src").replace("_b","_over"));
+		$("table.sidebar tr img").hover(function() {
+			$(this).attr("src",$(this).attr("src").replace("_s","_s_over"));
 		},function(){
-			$(this).attr("src",$(this).attr("src").replace("_over","_b"));
+			$(this).attr("src",$(this).attr("src").replace("_s_over","_s"));
 		})
 	})
 </script>
@@ -23,19 +23,19 @@
 </head>
 <body class="sidebar">
 <div class="sidebar">
-	<table width="220px"  align="center" >
+	<table width="220px"  align="center"  class="sidebar">
 	<tr height="110px"><td>
-			<a href="member.ad"><img alt="회원관리" src="img/ad_member_b.png"  title="회원관리"  width="108px" height="108px"  class="admem" /></a>
+			<a href="member.ad"><img alt="회원관리" src="img/ad_member_s.png"  title="회원관리"  width="108px" height="108px"  class="admem" /></a>
 	</td><td>
-			<a href="class.ad"><img alt="강의실관리" src="img/ad_classroom_b.png" title="강의실관리" width="108px" height="108px"  class="adclass"/></a>
+			<a href="class.ad"><img alt="강의실관리" src="img/ad_classroom_s.png" title="강의실관리" width="108px" height="108px"  class="adclass"/></a>
 	</td></tr><tr height="110px"><td>
-			<a href="library.ad"><img alt="도서관관리" src="img/ad_library_b.png" title="도서관관리" width="108px" height="108px" class="adlib"/></a>
+			<a href="library.ad"><img alt="도서관관리" src="img/ad_library_s.png" title="도서관관리" width="108px" height="108px" class="adlib"/></a>
 	</td><td>
-			<a href="board.ad"><img alt="게시판관리" src="img/ad_aboard_b.png" title="게시판관리" width="108px" height="108px" class="adboard"/></a>
+			<a href="board.ad"><img alt="게시판관리" src="img/ad_board_s.png" title="게시판관리" width="108px" height="108px" class="adboard"/></a>
 	</td><tr height="110px"><td>
-			<a href="index"><img alt="인덱스" src="img/ad_mainpage_b.png" title="인덱스" width="108px" height="108px"  class="adindex"/></a>
+			<a href="index"><img alt="인덱스" src="img/ad_mainpage_s.png" title="인덱스" width="108px" height="108px"  class="adindex"/></a>
 	</td><td>
-			<a href="logout"><img alt="로그아웃" src="img/ad_logout_b.png" title="로그아웃" width="108px" height="108px"  class="adlogout"/></a>
+			<a href="logout"><img alt="로그아웃" src="img/ad_logout_s.png" title="로그아웃" width="108px" height="108px"  class="adlogout"/></a>
 	</td></tr>
 </table>
 </div>
